@@ -44,7 +44,7 @@ body > .container {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #4ad155;
+    background-color: rgb(74, 209, 85);
 }
 
 .carousel-indicators li.active{
@@ -54,6 +54,3 @@ body > .container {
 .carousel-caption {
     color: rgb(25, 105, 39);
 }
-
-
-

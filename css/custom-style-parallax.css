@@ -1,0 +1,26 @@
+body, html, main{height:100%;}
+
+.parallax {
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1 {
+    background-image: url('https://images.unsplash.com/photo-1463412855783-af97e375664b?iq=100&fm=jpg&w=500');
+}
+
+.image2 {
+    background-image: url('https://images.unsplash.com/photo-1462819067004-905a72ea3996?iq=100&fm=jpg&w=500');
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
