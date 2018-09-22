@@ -8,20 +8,27 @@ body, html, main{height:100%;}
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-color: transparent;
 }
 
-.image1 {
-    background-image: url('https://images.unsplash.com/photo-1463412855783-af97e375664b?iq=100&fm=jpg&w=500');
+.camping {
+    background-image: url('../img/LegoFriendsCamping.jpg');
 }
 
-.image2 {
-    background-image: url('https://images.unsplash.com/photo-1462819067004-905a72ea3996?iq=100&fm=jpg&w=500');
+.sailing {
+    background-image: url('../img/LegoFriendsSailing.jpg');
+}
+
+.space-travel {
+    background-image: url('../img/LegoStarWars.jpg');
 }
 
 @media only screen and (max-width: 992px) {
     .parallax {
+        height: 35vh;
         background-attachment: scroll;
+        background-size: contain;
     }
 }
 
