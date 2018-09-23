@@ -26,9 +26,16 @@ body, html, main{height:100%;}
 
 @media only screen and (max-width: 992px) {
     .parallax {
-        height: 35vh;
         background-attachment: scroll;
-        background-size: contain;
+    }
+    .show-background {
+        display: none;    
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .show-image {
+        display: none;
     }
 }
 
