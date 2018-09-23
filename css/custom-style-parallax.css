@@ -37,8 +37,20 @@ body, html, main{height:100%;}
     .show-image {
         display: none;
     }
+    .building-block {
+        height:100%;
+    }
 }
 
 .jumbotron {
     margin-bottom: 0;
 }
+
+.building-block {
+    padding: 1rem 1rem 5rem 1rem;
+    background-color: rgb(163, 202, 202);
+    border-radius: .5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
