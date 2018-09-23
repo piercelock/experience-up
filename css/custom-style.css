@@ -87,3 +87,8 @@ body > .container {
 h1 {
     color: rgb(113, 202, 202);
 }
+
+.btn-success {
+    background-color: rgb(113, 202, 202);
+    border-color:rgb(163, 202, 202);
+}
