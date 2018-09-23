@@ -31,15 +31,6 @@ body > .container {
     font-size: 80%;
 }
 
-/* Change carousel control and indicator colors for white background images*/
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234ad155' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-}
-   
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234ad155' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
 .carousel-indicators li {
     width: 10px;
     height: 10px;
@@ -52,7 +43,9 @@ body > .container {
 }
 
 .carousel-caption {
-    color: rgb(25, 105, 39);
+    background-color: rgb(163, 202, 202);
+    border-radius: .5rem;
+    padding: 0.5rem;
 }
 
 .piano-lesson {
@@ -61,6 +54,7 @@ body > .container {
     background-color: rgb(163, 202, 202);
     border-radius: .5rem;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 .piano-lesson:hover {
