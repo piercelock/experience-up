@@ -93,12 +93,15 @@ h1 {
     border-color:rgb(163, 202, 202);
 }
 
-.logo {
-    
+.logo { 
     color: rgb(113, 202, 202);
     font-style: italic;
     font-size: x-large;
     margin: 0rem 2rem 0rem;
-    
-    
+   
+}
+
+.logo:hover {
+    color: rgb(113, 202, 202);
+    text-decoration: none;   
 }
